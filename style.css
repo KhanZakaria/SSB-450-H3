@@ -1,0 +1,277 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@500&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 16px;
+    font-weight: 500;
+}
+.container{
+    display: flex;
+    flex-direction: column;
+    width: 90%;
+    margin: auto;
+    padding: 50px 0 50px 0 ;
+}
+
+li{
+    list-style-type: none;
+}
+
+a{
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 14px;
+}
+a:hover{
+    color: #10c9c3;
+}
+
+.btn{
+    padding: 14px 18px;
+    background-color: #10c9c3;
+    color: white;
+}
+.btn-full{
+    width: 100%;
+    text-align: center;
+    padding: 40px 24px;
+    background-color:#F5F5F5;
+    color: #9E9E9E;
+}
+.btn:hover{
+    color: aliceblue;
+    background-color: #11d6cf;  
+    cursor: pointer;
+}
+.btn-full:hover{
+    color: rgb(248, 252, 255);
+    background-color: #bacbca;  
+    cursor: pointer;
+}
+
+.hero{
+    background-color: #DFE9EB;
+    background-image: url(images/background.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    min-height: 100vh;
+}
+.header{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+.logo a img{
+    height: 25px;
+    width: 30px;
+}
+
+.menu ul li {
+    display: inline-block;
+    padding: 10px 14px ;
+}
+
+.intro{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    padding-top: 150px;
+}
+.left{
+    flex-basis: 60%;
+}
+.right{
+    flex-basis: 40%;
+}
+.right h1{
+    font-size: 35px;
+    font-weight: 600;
+    margin-bottom: 30px;
+}
+.right p{
+    line-height: 30px;
+    margin-bottom: 50px;
+}
+
+.about{
+    display: flex;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    padding: 50px 0px;
+}
+.about h2{
+    font-size: 30px;
+    font-weight: 900;
+    margin-bottom: 50px;
+}
+.about p{
+    width: 50%;
+    line-height: 30px;
+    margin-bottom: 20px;
+}
+
+.professionalSkills{
+    display: flex;
+    background-image: url(images/proffesional\ background.png);
+    min-height: 100vh;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.skills{
+    max-width: 50%;
+}
+.skills h2{
+ text-transform: capitalize;
+ margin-bottom: 40px;
+}
+.uiux{
+    width: 75%;
+    height: 5px;
+    background-color: rgb(126, 14, 158);
+    margin: 15px 0px;
+}
+.web{
+    width: 90%;
+    height: 5px;
+    background-color: rgb(19, 150, 150);
+    margin: 15px 0px;
+}
+.marketing{
+    width: 60%;
+    height: 5px;
+    background-color: rgb(214, 211, 28);
+    margin: 15px 0px;
+}
+
+.iconDetails{
+    display: flex;
+    background-color: #10C9C3;
+    min-height: 250px;
+}
+.iconsContainer{
+    display: flex;
+    justify-content: space-between;
+    color: white;
+}
+.iconsAll{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.iconsAll .icon{
+    height: 35px;
+    width: 35px;
+    margin-right: 25px;
+}
+.iconText h3{
+    font-weight: 500;
+    padding-bottom: 10px;
+}
+.iconText p{
+    text-transform: uppercase;
+}
+.portfolioContainer .container{
+    width: 100%;
+    padding: 0;
+}
+.portfolio{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.img{
+    max-width: 25%;
+    min-height: 250px;
+    overflow: hidden;
+}
+.img img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+.img:nth-child(1),
+.img:nth-child(3),
+.img:nth-child(6),
+.img:nth-child(8){
+    background-color: #DFE9EB;
+}
+
+.img:hover{
+    background-image: url(images/eye.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-blend-mode: multiply;
+    cursor: pointer;
+}
+.workProcessContainer{
+    min-height: 100vh;
+    text-align: center;
+}
+.workProcess{
+    display: flex;
+    flex-direction: column;
+}
+.workProcess h2{
+    font-weight: 500px;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+.workProcess p{
+    width: 80%;
+    margin: auto;
+    font-size: 18px;
+    line-height: 40px;
+    margin-bottom: 50px;
+}
+.workProcess video{
+    min-height: 400px;
+    min-width:720px ;
+}
+
+
+
+
+
+
+
+
+
+
+footer{
+    background-color: rgb(30, 24, 24);
+    color: white;
+}
+.footerContainer{
+    display: flex;
+    justify-content: space-between;
+}
+.footerContainer  h2{
+    font-weight: 500;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+.footerContainer p , tel{
+    font-size: 14px;
+    padding: 10px 0;
+}
+.footerContainer a ,
+.fMenu a{
+    text-decoration: none;
+    color: white;
+    padding: 10px 0;
+}
+.footerContainer a:hover ,
+.fMenu a:hover{
+    color: #9E9E9E;
+}
+.importantLink , .fMenu{
+    display: flex;
+    flex-direction: column;
+}
